@@ -50,7 +50,17 @@ let evensArr = []
   if the number is even, append it to the 'evensArr'.
 */
 
+for(let i = 0; i < nums.length; i++){
+  console.log(nums[i])
+  if(nums[i] % 2 === 0){
+    evensArr.slice(nums[0, evensArr.length])
+  }
+}  
+
+console.log(evensArr)
+
 //Code Here
+/*
 for(let i = 0; i < nums.length; i++){
   console.log(nums[i])
   if(nums[i] % 2 === 0){
@@ -58,11 +68,13 @@ for(let i = 0; i < nums.length; i++){
   }
 }
 console.log(evensArr)
-
+*/
 ////////// PROBLEM 5 //////////
 
-// Do not edit the code below.
+//Do not edit the code below.
+
 var score = 74
+
 // Do not edit the code above.
 
 /*
